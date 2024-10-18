@@ -41,8 +41,6 @@ public abstract class AbstractVehicleFactory
     public abstract IVehicle Create();
 }
 
-
-
 public class VehicleFactory : AbstractVehicleFactory
 {
     private readonly IVehicleFactory _factory;

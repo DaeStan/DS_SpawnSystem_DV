@@ -50,22 +50,22 @@ public class Client : MonoBehaviour
     }
     public void CargoToggle(bool current)
     {
-        if (current == false)
+        if (current)
         {
             Cargo = true;
         }
-        if (current == true)
+        else
         {
             Cargo = false;
         }
     }
     public void EngineToggle(bool current)
     {
-        if (current == false)
+        if (current)
         {
             Engine = true;
         }
-        if (current == true)
+        else
         {
             Engine = false;
         }

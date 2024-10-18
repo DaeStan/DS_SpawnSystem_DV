@@ -928,7 +928,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1723775811}
         m_TargetAssemblyTypeName: Client, Assembly-CSharp
         m_MethodName: CargoToggle
-        m_Mode: 6
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1254,7 +1254,7 @@ MonoBehaviour:
       - m_Target: {fileID: 1723775811}
         m_TargetAssemblyTypeName: Client, Assembly-CSharp
         m_MethodName: EngineToggle
-        m_Mode: 6
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2297,9 +2297,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NumberOfWheels: 0
-  Engine: 0
+  Engine: 1
   Passengers: 0
-  Cargo: 0
+  Cargo: 1
 --- !u!4 &1723775812
 Transform:
   m_ObjectHideFlags: 0
